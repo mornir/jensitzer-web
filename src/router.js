@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router"
+import { createRouter, createWebHistory } from "vue-router"
 import BeersList from "./pages/BeersList.vue"
 import BeerDetails from "./pages/BeerDetails.vue"
 
@@ -15,6 +15,6 @@ const routes = [
 // keep it simple for now.
 export default createRouter({
   // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes, // short for `routes: routes`
 })

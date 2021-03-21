@@ -1,5 +1,5 @@
 <template>
-  <router-link to="/" class="inline-block mb-8 underline"
+  <router-link to="/" class="inline-block mb-12 underline"
     >👈 Zurück zur Bierliste</router-link
   >
   <article class="font-sans text-gray-800">

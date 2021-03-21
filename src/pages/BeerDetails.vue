@@ -4,17 +4,17 @@
   >
   <article class="font-sans text-gray-800">
     <h1
-      class="mb-2 text-4xl font-black tracking-wide md:(text-5xl mb-5) text-gray-900"
+      class="mb-4 text-4xl font-black tracking-wide md:(text-5xl mb-8) text-gray-900"
     >
       {{ beer.number }}.
       {{ beer.name }}
     </h1>
     <h2
-      class="mb-4 text-xl font-semibold text-blue-600 md:(text-3xl mb-8) text-center"
+      class="mb-10 text-2xl font-semibold text-blue-600 md:(text-3xl mb-16) text-center"
     >
       {{ beer.description }}
     </h2>
-    <p class="mb-8 md:mb-12">
+    <p class="mb-6 md:mb-12">
       <span class="text-2xl font-bold">{{ beer.abv }}% </span>
       <span class="text-xl font-semibold">Alc.</span>
     </p>

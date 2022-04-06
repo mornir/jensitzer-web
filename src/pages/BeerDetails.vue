@@ -4,13 +4,29 @@
   >
   <article class="font-sans text-gray-800">
     <h1
-      class="mb-4 text-4xl font-black tracking-wide md:(text-5xl mb-8) text-gray-900"
+      class="
+        mb-4
+        text-4xl
+        font-black
+        tracking-wide
+        md:(text-5xl
+        mb-8)
+        text-gray-900
+      "
     >
       {{ beer.number }}.
       {{ beer.name }}
     </h1>
     <h2
-      class="mb-10 text-2xl font-semibold text-blue-600 md:(text-3xl mb-16) text-center"
+      class="
+        mb-10
+        text-2xl
+        font-semibold
+        text-blue-600
+        md:(text-3xl
+        mb-16)
+        text-center
+      "
     >
       {{ beer.description }}
     </h2>
@@ -60,9 +76,9 @@
 </template>
 
 <script>
-import { sanity } from "../sanity"
+import { sanity } from '../sanity'
 export default {
-  name: "BeerDetails",
+  name: 'BeerDetails',
   data() {
     return {
       beer: {},
